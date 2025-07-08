@@ -1,0 +1,1116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SnackStop LK - Menu & Orders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <div class="icon"></div>
+                <span>SNACKSTOP LK</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="menu.html" class="active">MENU & ORDERS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-content">
+        <div class="container">
+            <h1>Our Menu & Online Ordering</h1>
+
+            
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion-savoury">
+                <label for="accordion-savoury" class="accordion-header">
+                    Savoury
+                </label>
+                <div class="accordion-content">
+                    <div class="food-items-grid">
+                        <div class="food-item-card">
+                            <img src="Images/chicknpastry.jpg" alt="Chicken Pastry">
+                            <div class="food-item-details">
+                                <h3>Chicken Pastry</h3>
+                                <p>Rs. 150</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-chickenpastry" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-chickenpastry" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-chickenpastry" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/veg_roll.jpg" alt="Vegetable Roll">
+                            <div class="food-item-details">
+                                <h3>Vegetable Roll</h3>
+                                <p>Rs. 100</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-vegetableroll" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-vegetableroll" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-vegetableroll" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/eggroll.jpg" alt="Egg roll">
+                            <div class="food-item-details">
+                                <h3>Egg Roll</h3>
+                                <p>Rs. 110</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-eggroll" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-eggroll" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-eggroll" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/fishcutlet.jpg" alt="Fish Cutlet">
+                            <div class="food-item-details">
+                                <h3>Fish Cutlet</h3>
+                                <p>Rs. 90</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-fishcutlet" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-fishcutlet" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-fishcutlet" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/vegroti.jpg" alt="Vegetable Roti">
+                            <div class="food-item-details">
+                                <h3>Vegetable Roti</h3>
+                                <p>Rs. 120</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-vegroti" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-vegroti" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-vegroti" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/ulunduwade.jpg" alt="Ulundu Wade">
+                            <div class="food-item-details">
+                                <h3>Ulundu Wade</h3>
+                                <p>Rs. 80</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-ulunduwade" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-ulunduwade" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-ulunduwade" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/samosa.jpg" alt="Samosa">
+                            <div class="food-item-details">
+                                <h3>Samosa</h3>
+                                <p>Rs. 110</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-samosa" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-samosa" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-samosa" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/spring_rolls.jpg" alt="Spring Rolls">
+                            <div class="food-item-details">
+                                <h3>Spring Rolls</h3>
+                                <p>Rs. 140</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-springrolls" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-springrolls" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-springrolls" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/minipizza.jpg" alt="Mini Chicken Pizza">
+                            <div class="food-item-details">
+                                <h3>Mini Chicken Pizza</h3>
+                                <p>Rs. 320</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-minipizza" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-minipizza" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-minipizza" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/clubsandwch.jpg" alt="Club Sandwich (with fries)">
+                            <div class="food-item-details">
+                                <h3>Club Sandwich (with fries)</h3>
+                                <p>Rs. 400</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-clubsandwich" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-clubsandwich" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-clubsandwich" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion-bakery">
+                <label for="accordion-bakery" class="accordion-header">
+                    Bakery
+                </label>
+                <div class="accordion-content">
+                    <div class="food-items-grid">
+                        <div class="food-item-card">
+                            <img src="Images/hotdog.jpg" alt="Hot dog">
+                            <div class="food-item-details">
+                                <h3>Hot dog</h3>
+                                <p>Rs. 180</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-hotdog" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-hotdog" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-hotdog" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/seenisambalbun.jpg" alt="Seeni Sambol Bun">
+                            <div class="food-item-details">
+                                <h3>Seeni Sambol Bun</h3>
+                                <p>Rs. 80</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-seenisambolbun" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-seenisambolbun" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-seenisambolbun" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/teabun.png" alt="Tea Bun">
+                            <div class="food-item-details">
+                                <h3>Tea Bun</h3>
+                                <p>Rs. 60</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-teabun" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-teabun" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-teabun" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/kimbula_bun.jpg" alt="Kimbula Bun">
+                            <div class="food-item-details">
+                                <h3>Kimbula Bun</h3>
+                                <p>Rs. 120</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-kimbulabun" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-kimbulabun" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-kimbulabun" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/fishbun.jpg" alt="Fish Bun">
+                            <div class="food-item-details">
+                                <h3>Fish Bun</h3>
+                                <p>Rs. 100</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-fishbun" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-fishbun" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-fishbun" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion-cakes">
+                <label for="accordion-cakes" class="accordion-header">
+                    Cakes
+                </label>
+                <div class="accordion-content">
+                    <div class="food-items-grid">
+                        <div class="food-item-card">
+                            <img src="Images/ribboncake.png" alt="Ribbon Cake">
+                            <div class="food-item-details">
+                                <h3>Ribbon Cake (500 g)</h3>
+                                <p>Rs. 2500</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-ribboncake" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-ribboncake" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-ribboncake" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/datecake.jpg" alt="Date Cake">
+                            <div class="food-item-details">
+                                <h3>Date Cake (500 g)</h3>
+                                <p>Rs. 1500</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-datecake" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-datecake" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-datecake" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/choccake.jpg" alt="Chocolate Cake">
+                            <div class="food-item-details">
+                                <h3>Chocolate Cake (500 g)</h3>
+                                <p>Rs. 3000</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-chocolatecake" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-chocolatecake" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-chocolatecake" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion-sweet">
+                <label for="accordion-sweet" class="accordion-header">
+                    Sweet
+                </label>
+                <div class="accordion-content">
+                    <div class="food-items-grid">
+                        <div class="food-item-card">
+                            <img src="Images/chocmuffin.jpg" alt="Chocolate Muffin">
+                            <div class="food-item-details">
+                                <h3>Chocolate Muffin</h3>
+                                <p>Rs. 190</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-chocmuffin" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-chocmuffin" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-chocmuffin" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/cupcake.jpg" alt="Cupcakes">
+                            <div class="food-item-details">
+                                <h3>Cupcakes</h3>
+                                <p>Rs. 170</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-cupcakes" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-cupcakes" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-cupcakes" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/vaniladonut.jpg" alt="Vanilla Donut">
+                            <div class="food-item-details">
+                                <h3>Vanilla Donut</h3>
+                                <p>Rs. 150</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-vanilladonut" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-vanilladonut" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-vanilladonut" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/lavacake.jpg" alt="Lava Cake">
+                            <div class="food-item-details">
+                                <h3>Lava Cake</h3>
+                                <p>Rs. 200</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-lavacake" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-lavacake" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-lavacake" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion-traditional-sweets">
+                <label for="accordion-traditional-sweets" class="accordion-header">
+                    Traditional Sweets
+                </label>
+                <div class="accordion-content">
+                    <div class="food-items-grid">
+                        <div class="food-item-card">
+                            <img src="Images/paniwaalu.jpg" alt="Pani Walalu">
+                            <div class="food-item-details">
+                                <h3>Pani Walalu (each)</h3>
+                                <p>Rs. 50</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-paniwalalu" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-paniwalalu" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-paniwalalu" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/kokis.jpg" alt="Kokis">
+                            <div class="food-item-details">
+                                <h3>Kokis (each)</h3>
+                                <p>Rs. 60</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-kokis" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-kokis" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-kokis" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/athirasa.jpg" alt="Athirasa">
+                            <div class="food-item-details">
+                                <h3>Athirasa (each)</h3>
+                                <p>Rs. 70</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-athirasa" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-athirasa" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-athirasa" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/kondakawum.jpg" alt="Konda Kawum">
+                            <div class="food-item-details">
+                                <h3>Konda Kawum (each)</h3>
+                                <p>Rs. 80</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-kondakawum" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-kondakawum" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-kondakawum" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/aluwa.jpg" alt="Aluwa">
+                            <div class="food-item-details">
+                                <h3>Aluwa (piece)</h3>
+                                <p>Rs. 60</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-aluwa" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-aluwa" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-aluwa" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/poltoffee.jpg" alt="Pol Toffee">
+                            <div class="food-item-details">
+                                <h3>Pol Toffee (piece)</h3>
+                                <p>Rs. 50</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-poltoffee" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-poltoffee" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-poltoffee" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/milktoffee.jpg" alt="Milk Toffee">
+                            <div class="food-item-details">
+                                <h3>Milk Toffee (piece)</h3>
+                                <p>Rs. 50</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-milktoffee" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-milktoffee" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-milktoffee" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/dodol.jpg" alt="Dodol">
+                            <div class="food-item-details">
+                                <h3>Dodol (piece)</h3>
+                                <p>Rs. 100</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-dodol" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-dodol" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-dodol" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/asmi.jpg" alt="Asmi">
+                            <div class="food-item-details">
+                                <h3>Asmi (each)</h3>
+                                <p>Rs. 150</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-asmi" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-asmi" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-asmi" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="accordion-item">
+                <input type="checkbox" id="accordion-beverages">
+                <label for="accordion-beverages" class="accordion-header">
+                    Beverages
+                </label>
+                <div class="accordion-content">
+                    <div class="food-items-grid">
+                        <div class="food-item-card">
+                            <img src="Images/tea.jpg" alt="Tea">
+                            <div class="food-item-details">
+                                <h3>Tea</h3>
+                                <p>Rs. 120</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-tea" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-tea" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-tea" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/hot_coffee.jpg" alt="Hot Coffee">
+                            <div class="food-item-details">
+                                <h3>Hot Coffee</h3>
+                                <p>Rs. 110</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-hotcoffee" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-hotcoffee" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-hotcoffee" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/ice_coffee.jpg" alt="Ice Coffee">
+                            <div class="food-item-details">
+                                <h3>Ice Coffee</h3>
+                                <p>Rs. 180</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-icecoffee" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-icecoffee" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-icecoffee" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/orangejuice.jpg" alt="Orange Juice">
+                            <div class="food-item-details">
+                                <h3>Orange Juice</h3>
+                                <p>Rs. 200</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-orangejuice" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-orangejuice" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-orangejuice" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/limejuice.jpg" alt="Lime Juice">
+                            <div class="food-item-details">
+                                <h3>Lime Juice</h3>
+                                <p>Rs. 150</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-limejuice" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-limejuice" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-limejuice" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="food-item-card">
+                            <img src="Images/faluda.jpg" alt="Faluda">
+                            <div class="food-item-details">
+                                <h3>Faluda</h3>
+                                <p>Rs. 300</p>
+                                <div class="order-options">
+                                    <a href="#modal-preorder-faluda" class="option-btn">Pre-Order</a>
+                                    <a href="#modal-deliverypickup-faluda" class="option-btn">Delivery/Pickup</a>
+                                    <a href="#modal-customorder-faluda" class="option-btn">Custom Order</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+    <div id="modal-preorder-chickenpastry" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <h3>Pre-Order Chicken Pastry</h3>
+            <form class="modal-form">
+                <label for="pre_qty_cp">Quantity:</label>
+                <input type="number" id="pre_qty_cp" name="quantity" min="1" value="1">
+
+                <label for="pre_date_cp">Preferred Date:</label>
+                <input type="date" id="pre_date_cp" name="preferred_date">
+
+                <label for="pre_time_cp">Preferred Time:</label>
+                <input type="time" id="pre_time_cp" name="preferred_time">
+
+                <label for="pre_name_cp">Your Name:</label>
+                <input type="text" id="pre_name_cp" name="your_name">
+
+                <label for="pre_contact_cp">Contact Number:</label>
+                <input type="text" id="pre_contact_cp" name="contact_number">
+
+                <div class="radio-group">
+                    <label>Payment Method:</label>
+                    <label><input type="radio" name="payment_method_cp" value="cash"> Cash</label>
+                    <label><input type="radio" name="payment_method_cp" value="card"> Card</label>
+                </div>
+                <button type="submit" class="order-btn">Order</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div id="modal-deliverypickup-chickenpastry" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <h3>Delivery/Pickup Chicken Pastry</h3>
+            <form class="modal-form">
+                <label for="dp_qty_cp">Quantity:</label>
+                <input type="number" id="dp_qty_cp" name="quantity" min="1" value="1">
+
+                <div class="radio-group">
+                    <label>Choose:</label>
+                    <label><input type="radio" name="delivery_pickup_cp" value="delivery"> Delivery</label>
+                    <label><input type="radio" name="delivery_pickup_cp" value="pickup"> Pickup</label>
+                </div>
+
+                <label for="dp_address_cp">Delivery Address:</label>
+                <input type="text" id="dp_address_cp" name="delivery_address">
+
+                <label for="dp_time_cp">Preferred Time:</label>
+                <input type="time" id="dp_time_cp" name="preferred_time">
+
+                <label for="dp_name_cp">Your Name:</label>
+                <input type="text" id="dp_name_cp" name="your_name">
+
+                <label for="dp_contact_cp">Contact Number:</label>
+                <input type="text" id="dp_contact_cp" name="contact_number">
+
+                <div class="radio-group">
+                    <label>Payment Method:</label>
+                    <label><input type="radio" name="payment_method_dp_cp" value="cash"> Cash</label>
+                    <label><input type="radio" name="payment_method_dp_cp" value="card"> Card</label>
+                </div>
+                <button type="submit" class="order-btn">Order</button>
+            </form>
+        </div>
+    </div>
+
+    
+    <div id="modal-customorder-chickenpastry" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="modal-close">&times;</a>
+            <h3>Custom Order Chicken Pastry</h3>
+            <form class="modal-form"> 
+                <label for="cust_qty_cp">Quantity:</label>
+                <input type="number" id="cust_qty_cp" name="quantity" min="1" value="1">
+
+                <label for="cust_instructions_cp">Custom Instructions:</label>
+                <textarea id="cust_instructions_cp" name="custom_instructions"></textarea>
+
+                <div class="radio-group">
+                    <label>Choose:</label>
+                    <label><input type="radio" name="delivery_pickup_cust_cp" value="delivery"> Delivery</label>
+                    <label><input type="radio" name="delivery_pickup_cust_cp" value="pickup"> Pickup</label>
+                </div>
+
+                <label for="cust_address_cp">Delivery Address:</label>
+                <input type="text" id="cust_address_cp" name="delivery_address">
+
+                <label for="cust_date_cp">Preferred Date:</label>
+                <input type="date" id="cust_date_cp" name="preferred_date">
+
+                <label for="cust_time_cp">Preferred Time:</label>
+                <input type="time" id="cust_time_cp" name="preferred_time">
+
+                <label for="cust_name_cp">Your Name:</label>
+                <input type="text" id="cust_name_cp" name="your_name">
+
+                <label for="cust_contact_cp">Contact Number:</label>
+                <input type="text" id="cust_contact_cp" name="contact_number">
+
+                <div class="radio-group">
+                    <label>Payment Method:</label>
+                    <label><input type="radio" name="payment_method_cust_cp" value="cash"> Cash</label>
+                    <label><input type="radio" name="payment_method_cust_cp" value="card"> Card</label>
+                </div>
+                <button type="submit" class="order-btn">Order</button>
+            </form>
+        </div>
+    </div>
+	<div id="modal-preorder-vegetableroll" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Pre-Order Vegetable Roll</h3>
+        <form class="modal-form">
+            <label for="pre_qty_vr">Quantity:</label>
+            <input type="number" id="pre_qty_vr" name="quantity_vr" min="1" value="1">
+
+            <label for="pre_date_vr">Preferred Date:</label>
+            <input type="date" id="pre_date_vr" name="preferred_date_vr">
+
+            <label for="pre_time_vr">Preferred Time:</label>
+            <input type="time" id="pre_time_vr" name="preferred_time_vr">
+
+            <label for="pre_name_vr">Your Name:</label>
+            <input type="text" id="pre_name_vr" name="your_name_vr">
+
+            <label for="pre_contact_vr">Contact Number:</label>
+            <input type="text" id="pre_contact_vr" name="contact_number_vr">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_pre_vr" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_pre_vr" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-deliverypickup-vegetableroll" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Delivery/Pickup Vegetable Roll</h3>
+        <form class="modal-form">
+            <label for="dp_qty_vr">Quantity:</label>
+            <input type="number" id="dp_qty_vr" name="quantity_dp_vr" min="1" value="1">
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_vr" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_vr" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="dp_address_vr">Delivery Address:</label>
+            <input type="text" id="dp_address_vr" name="delivery_address_dp_vr">
+
+            <label for="dp_time_vr">Preferred Time:</label>
+            <input type="time" id="dp_time_vr" name="preferred_time_dp_vr">
+
+            <label for="dp_name_vr">Your Name:</label>
+            <input type="text" id="dp_name_vr" name="your_name_dp_vr">
+
+            <label for="dp_contact_vr">Contact Number:</label>
+            <input type="text" id="dp_contact_vr" name="contact_number_dp_vr">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_dp_vr" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_dp_vr" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-customorder-vegetableroll" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Custom Order Vegetable Roll</h3>
+        <form class="modal-form">
+            <label for="cust_qty_vr">Quantity:</label>
+            <input type="number" id="cust_qty_vr" name="quantity_cust_vr" min="1" value="1">
+
+            <label for="cust_instructions_vr">Custom Instructions:</label>
+            <textarea id="cust_instructions_vr" name="custom_instructions_cust_vr"></textarea>
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_cust_vr" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_cust_vr" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="cust_address_vr">Delivery Address:</label>
+            <input type="text" id="cust_address_vr" name="delivery_address_cust_vr">
+
+            <label for="cust_date_vr">Preferred Date:</label>
+            <input type="date" id="cust_date_vr" name="preferred_date_cust_vr">
+
+            <label for="cust_time_vr">Preferred Time:</label>
+            <input type="time" id="cust_time_vr" name="preferred_time_cust_vr">
+
+            <label for="cust_name_vr">Your Name:</label>
+            <input type="text" id="cust_name_vr" name="your_name_cust_vr">
+
+            <label for="cust_contact_vr">Contact Number:</label>
+            <input type="text" id="cust_contact_vr" name="contact_number_cust_vr">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_cust_vr" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_cust_vr" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+	<div id="modal-preorder-eggroll" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Pre-Order Egg Roll</h3>
+        <form class="modal-form">
+            <label for="pre_qty_er">Quantity:</label>
+            <input type="number" id="pre_qty_er" name="quantity_er" min="1" value="1">
+
+            <label for="pre_date_er">Preferred Date:</label>
+            <input type="date" id="pre_date_er" name="preferred_date_er">
+
+            <label for="pre_time_er">Preferred Time:</label>
+            <input type="time" id="pre_time_er" name="preferred_time_er">
+
+            <label for="pre_name_er">Your Name:</label>
+            <input type="text" id="pre_name_er" name="your_name_er">
+
+            <label for="pre_contact_er">Contact Number:</label>
+            <input type="text" id="pre_contact_er" name="contact_number_er">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_pre_er" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_pre_er" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-deliverypickup-eggroll" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Delivery/Pickup Egg Roll</h3>
+        <form class="modal-form">
+            <label for="dp_qty_er">Quantity:</label>
+            <input type="number" id="dp_qty_er" name="quantity_dp_er" min="1" value="1">
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_er" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_er" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="dp_address_er">Delivery Address:</label>
+            <input type="text" id="dp_address_er" name="delivery_address_dp_er">
+
+            <label for="dp_time_er">Preferred Time:</label>
+            <input type="time" id="dp_time_er" name="preferred_time_dp_er">
+
+            <label for="dp_name_er">Your Name:</label>
+            <input type="text" id="dp_name_er" name="your_name_dp_er">
+
+            <label for="dp_contact_er">Contact Number:</label>
+            <input type="text" id="dp_contact_er" name="contact_number_dp_er">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_dp_er" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_dp_er" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-customorder-eggroll" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Custom Order Egg Roll</h3>
+        <form class="modal-form">
+            <label for="cust_qty_er">Quantity:</label>
+            <input type="number" id="cust_qty_er" name="quantity_cust_er" min="1" value="1">
+
+            <label for="cust_instructions_er">Custom Instructions:</label>
+            <textarea id="cust_instructions_er" name="custom_instructions_cust_er"></textarea>
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_cust_er" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_cust_er" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="cust_address_er">Delivery Address:</label>
+            <input type="text" id="cust_address_er" name="delivery_address_cust_er">
+
+            <label for="cust_date_er">Preferred Date:</label>
+            <input type="date" id="cust_date_er" name="preferred_date_cust_er">
+
+            <label for="cust_time_er">Preferred Time:</label>
+            <input type="time" id="cust_time_er" name="preferred_time_cust_er">
+
+            <label for="cust_name_er">Your Name:</label>
+            <input type="text" id="cust_name_er" name="your_name_cust_er">
+
+            <label for="cust_contact_er">Contact Number:</label>
+            <input type="text" id="cust_contact_er" name="contact_number_cust_er">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_cust_er" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_cust_er" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+	<div id="modal-preorder-datecake" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Pre-Order Date Cake</h3>
+        <form class="modal-form">
+            <label for="pre_qty_dc">Quantity:</label>
+            <input type="number" id="pre_qty_dc" name="quantity_dc" min="1" value="1">
+
+            <label for="pre_date_dc">Preferred Date:</label>
+            <input type="date" id="pre_date_dc" name="preferred_date_dc">
+
+            <label for="pre_time_dc">Preferred Time:</label>
+            <input type="time" id="pre_time_dc" name="preferred_time_dc">
+
+            <label for="pre_name_dc">Your Name:</label>
+            <input type="text" id="pre_name_dc" name="your_name_dc">
+
+            <label for="pre_contact_dc">Contact Number:</label>
+            <input type="text" id="pre_contact_dc" name="contact_number_dc">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_pre_dc" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_pre_dc" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-deliverypickup-datecake" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Delivery/Pickup Date Cake</h3>
+        <form class="modal-form">
+            <label for="dp_qty_dc">Quantity:</label>
+            <input type="number" id="dp_qty_dc" name="quantity_dp_dc" min="1" value="1">
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_dc" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_dc" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="dp_address_dc">Delivery Address:</label>
+            <input type="text" id="dp_address_dc" name="delivery_address_dp_dc">
+
+            <label for="dp_time_dc">Preferred Time:</label>
+            <input type="time" id="dp_time_dc" name="preferred_time_dp_dc">
+
+            <label for="dp_name_dc">Your Name:</label>
+            <input type="text" id="dp_name_dc" name="your_name_dp_dc">
+
+            <label for="dp_contact_dc">Contact Number:</label>
+            <input type="text" id="dp_contact_dc" name="contact_number_dp_dc">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_dp_dc" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_dp_dc" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-customorder-datecake" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Custom Order Date Cake</h3>
+        <form class="modal-form">
+            <label for="cust_qty_dc">Quantity:</label>
+            <input type="number" id="cust_qty_dc" name="quantity_cust_dc" min="1" value="1">
+
+            <label for="cust_instructions_dc">Custom Instructions:</label>
+            <textarea id="cust_instructions_dc" name="custom_instructions_cust_dc"></textarea>
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_cust_dc" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_cust_dc" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="cust_address_dc">Delivery Address:</label>
+            <input type="text" id="cust_address_dc" name="delivery_address_cust_dc">
+
+            <label for="cust_date_dc">Preferred Date:</label>
+            <input type="date" id="cust_date_dc" name="preferred_date_cust_dc">
+
+            <label for="cust_time_dc">Preferred Time:</label>
+            <input type="time" id="cust_time_dc" name="preferred_time_cust_dc">
+
+            <label for="cust_name_dc">Your Name:</label>
+            <input type="text" id="cust_name_dc" name="your_name_cust_dc">
+
+            <label for="cust_contact_dc">Contact Number:</label>
+            <input type="text" id="cust_contact_dc" name="contact_number_cust_dc">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_cust_dc" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_cust_dc" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+	<div id="modal-preorder-chocmuffin" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Pre-Order Chocolate Muffin</h3>
+        <form class="modal-form">
+            <label for="pre_qty_cm">Quantity:</label>
+            <input type="number" id="pre_qty_cm" name="quantity_cm" min="1" value="1">
+
+            <label for="pre_date_cm">Preferred Date:</label>
+            <input type="date" id="pre_date_cm" name="preferred_date_cm">
+
+            <label for="pre_time_cm">Preferred Time:</label>
+            <input type="time" id="pre_time_cm" name="preferred_time_cm">
+
+            <label for="pre_name_cm">Your Name:</label>
+            <input type="text" id="pre_name_cm" name="your_name_cm">
+
+            <label for="pre_contact_cm">Contact Number:</label>
+            <input type="text" id="pre_contact_cm" name="contact_number_cm">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_pre_cm" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_pre_cm" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-deliverypickup-chocmuffin" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Delivery/Pickup Chocolate Muffin</h3>
+        <form class="modal-form">
+            <label for="dp_qty_cm">Quantity:</label>
+            <input type="number" id="dp_qty_cm" name="quantity_dp_cm" min="1" value="1">
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_cm" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_cm" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="dp_address_cm">Delivery Address:</label>
+            <input type="text" id="dp_address_cm" name="delivery_address_dp_cm">
+
+            <label for="dp_time_cm">Preferred Time:</label>
+            <input type="time" id="dp_time_cm" name="preferred_time_dp_cm">
+
+            <label for="dp_name_cm">Your Name:</label>
+            <input type="text" id="dp_name_cm" name="your_name_dp_cm">
+
+            <label for="dp_contact_cm">Contact Number:</label>
+            <input type="text" id="dp_contact_cm" name="contact_number_dp_cm">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_dp_cm" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_dp_cm" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+<div id="modal-customorder-chocmuffin" class="modal-overlay">
+    <div class="modal-content">
+        <a href="#" class="modal-close">×</a>
+        <h3>Custom Order Chocolate Muffin</h3>
+        <form class="modal-form">
+            <label for="cust_qty_cm">Quantity:</label>
+            <input type="number" id="cust_qty_cm" name="quantity_cust_cm" min="1" value="1">
+
+            <label for="cust_instructions_cm">Custom Instructions:</label>
+            <textarea id="cust_instructions_cm" name="custom_instructions_cust_cm"></textarea>
+
+            <div class="radio-group">
+                <label>Choose:</label>
+                <label><input type="radio" name="delivery_pickup_cust_cm" value="delivery"> Delivery</label>
+                <label><input type="radio" name="delivery_pickup_cust_cm" value="pickup"> Pickup</label>
+            </div>
+
+            <label for="cust_address_cm">Delivery Address:</label>
+            <input type="text" id="cust_address_cm" name="delivery_address_cust_cm">
+
+            <label for="cust_date_cm">Preferred Date:</label>
+            <input type="date" id="cust_date_cm" name="preferred_date_cust_cm">
+
+            <label for="cust_time_cm">Preferred Time:</label>
+            <input type="time" id="cust_time_cm" name="preferred_time_cust_cm">
+
+            <label for="cust_name_cm">Your Name:</label>
+            <input type="text" id="cust_name_cm" name="your_name_cust_cm">
+
+            <label for="cust_contact_cm">Contact Number:</label>
+            <input type="text" id="cust_contact_cm" name="contact_number_cust_cm">
+
+            <div class="radio-group">
+                <label>Payment Method:</label>
+                <label><input type="radio" name="payment_method_cust_cm" value="cash"> Cash</label>
+                <label><input type="radio" name="payment_method_cust_cm" value="card"> Card</label>
+            </div>
+            <button type="submit" class="order-btn">Order</button>
+        </form>
+    </div>
+</div>
+
+    
+
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-contact">
+                <p>No. 42, Galle Road, Dehiwala, Colombo</p>
+                <p>info@snackstoplk.com</p>
+                <p>+94 76 123 4567</p>
+            </div>
+            <div class="footer-hours">
+                <h3>BUSINESS HOURS</h3>
+                <p>WEEKDAYS 8AM - 8PM</p>
+                <p>WEEKENDS 9AM – 7PM</p>
+            </div>
+            <div class="footer-social">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="instagram://" class="social-icon" aria-label="Instagram">
+                        <img src="Images/iglogo.png" alt="Instagram Logo">
+                    </a>
+                    <a href="fb://" class="social-icon" aria-label="Facebook">
+                        <img src="Images/fblogo.png" alt="Facebook Logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
